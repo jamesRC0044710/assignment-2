@@ -63,6 +63,16 @@ namespace assignment_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1200px_Cone__geometry__svg {
+            get {
+                object obj = ResourceManager.GetObject("1200px-Cone_(geometry).svg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cuboid {
             get {
                 object obj = ResourceManager.GetObject("cuboid", resourceCulture);

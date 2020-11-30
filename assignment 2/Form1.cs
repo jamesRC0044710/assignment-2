@@ -27,8 +27,10 @@ namespace assignment_2
                 double volume = (length * width * height);
                 label4.Text = "volume=" + volume;
             }
-            catch {
-                MessageBox.Show("Error on input"); }
+            catch
+            {
+                MessageBox.Show("Error on input");
+            }
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -66,7 +68,6 @@ namespace assignment_2
         }
 
         private void Button2_Click(object sender, EventArgs e)
-
         {
             try
             {
@@ -74,20 +75,35 @@ namespace assignment_2
                 double surfacearea = 4.0 * Math.PI * (radius * radius);
                 label6.Text = "surface area=" + surfacearea;
             }
-            
-        
-        catch
-        {
-        MessageBox.Show ("Error on input");
-      
-        {
-                    private void Button3_Click(object sender, EventArgs e);
+
+
+            catch
+            {
+                MessageBox.Show("Error on input");
+
+            }
         }
-                try;
-                { double radius = double.Parse(textBox4.text);
-                        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            double Radius = double.Parse(textBox4.Text);
+            double Volume = 4.0 / 3.0 * (Math.PI * (Radius * Radius * Radius));
+            label7.Text = "Volume" + Volume;
+        }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            double Radius = double.Parse(textBox5.Text);
+            double height = double.Parse(textBox6.Text);
+            double Surfacearea = Math.PI * Radius * (Radius + Math.Sqrt((height * height) + (Radius * Radius)));
+            label9.Text = "surface area" + Surfacearea;
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            double Radius = double.Parse(textBox5.Text);
+        }
     }
-        
-        
-    }
+    
 }
+ 
