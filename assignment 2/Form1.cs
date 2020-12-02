@@ -102,6 +102,9 @@ namespace assignment_2
         private void Button4_Click(object sender, EventArgs e)
         {
             double Radius = double.Parse(textBox5.Text);
+            double Height = double.Parse(textBox6.Text);
+            double Volume = 1.0 / 3.0 * Math.PI * (Radius * Radius) * Height;
+            label10.Text = "|Volume=" + Volume;
         }
     }
     
